@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "localhost";
+    private $host = "139.99.97.250";
     private $db_name = "evote";
-    private $username = "root";
-    private $password = "";
+    private $username = "evote";
+    private $password = "2Ty4th4TVHnTUFsL";
     public $conn;
 
     public function getConnection() {
