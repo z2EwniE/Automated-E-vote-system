@@ -1,10 +1,10 @@
 <?php
 try {
     // Database configuration
-    $host = 'localhost'; 
+    $host = '139.99.97.250'; 
     $dbname = 'evote'; 
-    $username = 'root';   
-    $password = ''; 
+    $username = 'evote';   
+    $password = '2Ty4th4TVHnTUFsL'; 
 
     // Create PDO connection with proper error handling
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
